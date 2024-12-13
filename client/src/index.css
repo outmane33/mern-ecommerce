@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ql-editor {
+  font-size: 1.05rem;
+}
+
+#keyword {
+  border-radius: 1.5rem;
+  padding: 16px;
+}
+#panel {
+  margin-bottom: 5px;
+  border-radius: 12px;
+  border: none;
+}
+
+#title {
+  border-radius: 0px;
+  background-color: white;
+}
+#title:focus {
+  border-radius: 0px;
+}
+
+#content {
+  background-color: white;
+}
+.ql-editor {
+  font-size: 1.05rem;
+}
+/* .quill {
+  border-radius: 100px;
+} */
+/*  */
+
+/* Container styles */
+.tabs-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Individual tab button styles */
+[role="tab"] {
+  padding: 16px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6b7280;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  outline: none;
+}
+
+/* Active tab styles */
+[role="tab"][aria-selected="true"] {
+  color: #264c4f;
+  border-bottom: 2px solid #264c4f;
+  background-color: white;
+  outline: none;
+  --tw-ring-offset-shadow: none !important;
+  --tw-ring-shadow: none !important;
+  box-shadow: none !important;
+}
+[role="tab"][aria-selected="true"]:focus {
+  color: #264c4f;
+  border-bottom: 2px solid #264c4f !important;
+  background-color: white;
+  outline: none;
+  --tw-ring-offset-shadow: none !important;
+  --tw-ring-shadow: none !important;
+  box-shadow: none !important;
+}
+[role="tab"][aria-selected="true"]:visited {
+  color: #264c4f;
+  border-bottom: 2px solid #264c4f !important;
+  background-color: white;
+  outline: none;
+  --tw-ring-offset-shadow: none !important;
+  --tw-ring-shadow: none !important;
+  box-shadow: none !important;
+}
